@@ -14,21 +14,11 @@
   <link rel="stylesheet" href="./src/css/style.css">
 
   <title>Frontend Mentor | Advice generator app</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { 
-      margin-top: auto;
-
-      font-size: 11px; 
-      text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
   <main class="advice-generator">
     <div class="advice-generator__container">
-      <button class="advice-generator__randomize-advice"></button>
+      <input type="button" class="advice-generator__randomize-advice">
       <p class="advice-generator__advice-id">
         ADVICE <span class="advice-generator__advice-id--id-num">#999</span>
       </p>
@@ -37,7 +27,7 @@
       </p>
       <picture class="advice-generator__pattern-divider">
         <source media="(min-width:1440px)" srcset="./images/pattern-divider-desktop.svg">
-        <img src="./images/pattern-divider-mobile.svg">
+        <img src="./images/pattern-divider-mobile.svg" alt="divider">
       </picture>
     </div>
   </main>
